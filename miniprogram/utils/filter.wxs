@@ -1,0 +1,37 @@
+var filters = {
+  toFix: function(value) {
+    return value.toFixed(2) // 此处2为保留两位小数，保留几位小数，这里写几 
+  }
+}
+
+
+var formatNumber = function(n) {
+  n = n
+    .toString()
+  return n[1] ? n : '0' + n
+}
+
+/**
+ * 将时间戳(1570550400)格式转为 yyyy-MM-dd hh:mm:ss格式
+ */
+var formatDate = function(datetime) {
+  var date = getDate(datetime);
+  var year = date.getFullYear(); 
+  var month = date.getMonth() + 1;
+  month = month < 10 ? "0" + month : month;
+  var day = date.getDate();
+  day = day < 10 ? "0" + day : day;
+  var hh = date.getHours();
+  hh = hh < 10 ? "0" + hh : hh;
+  var mm = date.getMinutes();
+  mm = mm < 10 ? "0" + mm : mm;
+  var ss = date.getSeconds();
+  ss = ss < 10 ? "0" + ss : ss;
+  return year + "-" + month + "-" + day + ' ' + hh + ':' + mm + ':' + ss;
+}
+ 
+
+module.exports = {
+  toFix: filters.toFix,
+  formatDate: formatDate 
+}

@@ -1,16 +1,43 @@
 <!--index.wxml-->
-<view class="container">
+<wxs module="filters" src="../../utils/filter.wxs"></wxs>
+<!--主页面-->
+<view class="index_container">
+  <!--占位线-->
+  <view class="v_line"></view>
 
-  <!-- 上传图片 -->
-  <view class="uploader">
+  <!--列表-->
+  <view class="item-list" wx:for='{{itemList}}' wx:key="index">
+    <!--列表项-->
+    <view class="o-item" catchtap="bindItemClick" data-value="{{item}}">
+      <!--logo-->
+      <image class="iv_left_logo" src="../../images/ic_default{{item.fileType}}.png"></image>
+      <view class="ll_middle_info">
+        <!--文件名-->
+        <view class="tv_middle_name">{{item.fileName}}</view>
+        <!--创建时间-->
+        <view class="tv_middle_time">{{filters.formatDate(item.fileCreateTime)}}</view>
+      </view>
+      <!--修改名称-->
+      <view class="btn_update_name" catchtap="bindUpdateName" data-value="{{item}}">修改名称</view>
+      <!--复制链接按钮-->
+      <view class="btn_bottom_copy" catchtap="bindItemCopy" data-value="{{item}}">复制链接</view>
+      <!--底部占位线-->
+      <view class="v_bottom_line"></view>
+    </view>
+  </view>
+  <!--没有更多了-->
+  <view class="tv_list_no_more">没有更多了</view>
+  <!-- 上传 -->
+  <view class="uploader" style="position:fixed; bottom:0;width: 750rpx;">
     <view class="uploader-text" bindtap="doUpload">
-      <text>上传图片</text>
+      <text>上传</text>
     </view>
     <view class="uploader-container" wx:if="{{imgUrl}}">
       <image class="uploader-image" src="{{imgUrl}}" mode="aspectFit" bindtap="previewImg"></image>
     </view>
   </view>
- 
-
-
 </view>
+
+<modal hidden="{{hiddenmodalput}}" title="请输入验证码" confirm-text="确定" cancel-text="取消" bindcancel="cancel" bindconfirm="confirm">
+  <input type='text' placeholder="请输入内容" bindinput="bindInputName" value="{{inputValue}}"  auto-focus/>
+</modal>

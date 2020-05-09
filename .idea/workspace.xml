@@ -1,25 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41e2d0d1-604e-4a88-96da-b0b0011a7655" name="Default Changelist" comment="" />
+    <list default="true" id="41e2d0d1-604e-4a88-96da-b0b0011a7655" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cloudfunctions/dbCreate/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudfunctions/dbDelete/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudfunctions/dbSelect/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudfunctions/dbUpdate/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudfunctions/getOpenid/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudfunctions/getOpenid/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniprogram/images/ic_default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniprogram/images/ic_default_doc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniprogram/images/ic_default_docx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniprogram/images/ic_default_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniprogram/images/ic_default_pdf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniprogram/images/ic_default_ppt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniprogram/images/ic_default_pptx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniprogram/images/ic_default_rar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniprogram/images/ic_default_rtf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniprogram/images/ic_default_txt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniprogram/images/ic_default_xls.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniprogram/images/ic_default_xlsx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniprogram/images/ic_default_zip.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniprogram/utils/filter.wxs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudfunctions/callback/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudfunctions/callback/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudfunctions/callback/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/cloudfunctions/dbSelect/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudfunctions/echo/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudfunctions/echo/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudfunctions/echo/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/cloudfunctions/dbCreate/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudfunctions/login/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudfunctions/login/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudfunctions/login/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/cloudfunctions/dbDelete/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudfunctions/openapi/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudfunctions/openapi/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudfunctions/openapi/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/cloudfunctions/dbUpdate/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/miniprogram/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/pages/index/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/miniprogram/pages/index/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/pages/index/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/miniprogram/pages/index/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/pages/index/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/miniprogram/pages/index/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="26" selection-start-column="26" selection-end-column="26" />
+            <state relative-caret-position="50">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -29,18 +75,17 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="145" />
-    <option name="y" value="455" />
-    <option name="width" value="1750" />
-    <option name="height" value="970" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1685" />
+    <option name="height" value="930" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -52,6 +97,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -83,37 +130,50 @@
       <option name="presentableId" value="Default" />
       <updated>1588899226270</updated>
     </task>
+    <task id="LOCAL-00001" summary="删除新建小程序项目的无用资源">
+      <created>1588987240771</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588987240771</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.3297587" />
-      <window_info id="Structure" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="Resources Explorer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
       <window_info id="Captures" order="0" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="TODO" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Flutter Inspector" />
-      <window_info anchor="right" id="Flutter Outline" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Flutter Performance" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.336887" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="Resources Explorer" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="TODO" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="4" />
+      <window_info anchor="bottom" id="Debug" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="1" />
+      <window_info anchor="right" id="Flutter Inspector" order="2" />
+      <window_info anchor="right" id="Flutter Outline" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Flutter Performance" order="5" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="删除新建小程序项目的无用资源" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除新建小程序项目的无用资源" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>

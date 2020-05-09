@@ -1,7 +1,10 @@
 //app.js
-const ENV = "test-zttr3";//测试环境
-// const ENV = "production-54a8q";//正式环境
+// const ENV = "test-zttr3";//测试环境
+// const updateFile = 'https://7465-test-zttr3-1302064826.tcb.qcloud.la';//测试环境云文件上传地址
 
+const ENV = "production-54a8q";//正式环境
+const updateFile = 'https://7072-production-54a8q-1302064826.tcb.qcloud.la';//生产环境云文件上传地址
+ 
 App({
   onLaunch: function () {
     
@@ -18,6 +21,9 @@ App({
       })
     }
 
-    this.globalData = {}
+    this.globalData = {
+      env:ENV,
+      updateFile: updateFile
+    }
   }
 })
