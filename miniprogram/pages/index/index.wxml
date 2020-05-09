@@ -9,8 +9,11 @@
   <view class="item-list" wx:for='{{itemList}}' wx:key="index">
     <!--列表项-->
     <view class="o-item" catchtap="bindItemClick" data-value="{{item}}">
-      <!--logo-->
-      <image class="iv_left_logo" src="../../images/ic_default{{item.fileType}}.png"></image>
+      <!--普通文件-->
+      <image class="iv_left_logo" wx:if="{{item.fileType!='_img'}}" src="../../images/ic_default{{item.fileType}}.png"></image>
+      <!--图片文件-->
+      <image class="iv_left_logo" wx:if="{{item.fileType=='_img'}}" src="{{item.fileUrl}}" catchtap="catchtapBig" data-value="{{item}}"></image>
+
       <view class="ll_middle_info">
         <!--文件名-->
         <view class="tv_middle_name">{{item.fileName}}</view>
@@ -39,5 +42,5 @@
 </view>
 
 <modal hidden="{{hiddenmodalput}}" title="请输入验证码" confirm-text="确定" cancel-text="取消" bindcancel="cancel" bindconfirm="confirm">
-  <input type='text' placeholder="请输入内容" bindinput="bindInputName" value="{{inputValue}}"  auto-focus/>
+  <input type='text' placeholder="请输入内容" bindinput="bindInputName" value="{{inputValue}}" auto-focus/>
 </modal>

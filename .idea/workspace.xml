@@ -2,44 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41e2d0d1-604e-4a88-96da-b0b0011a7655" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloudfunctions/dbCreate/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudfunctions/dbDelete/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudfunctions/dbSelect/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudfunctions/dbUpdate/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudfunctions/getOpenid/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudfunctions/getOpenid/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram/images/ic_default.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram/images/ic_default_doc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram/images/ic_default_docx.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram/images/ic_default_img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram/images/ic_default_pdf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram/images/ic_default_ppt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram/images/ic_default_pptx.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram/images/ic_default_rar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram/images/ic_default_rtf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram/images/ic_default_txt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram/images/ic_default_xls.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram/images/ic_default_xlsx.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram/images/ic_default_zip.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram/utils/filter.wxs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudfunctions/callback/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudfunctions/callback/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudfunctions/callback/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/cloudfunctions/dbSelect/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudfunctions/echo/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudfunctions/echo/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudfunctions/echo/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/cloudfunctions/dbCreate/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudfunctions/login/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudfunctions/login/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudfunctions/login/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/cloudfunctions/dbDelete/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudfunctions/openapi/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudfunctions/openapi/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudfunctions/openapi/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/cloudfunctions/dbUpdate/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/miniprogram/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/miniprogram/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/miniprogram/pages/index/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/miniprogram/pages/index/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/miniprogram/pages/index/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/miniprogram/pages/index/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/miniprogram/pages/index/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/miniprogram/pages/index/index.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,8 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -137,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588987240771</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="第一个版本，支持文件的 上传、复制下载链接、修改文件名、删除功能。">
+      <created>1589024596148</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589024596148</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -167,7 +138,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="删除新建小程序项目的无用资源" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除新建小程序项目的无用资源" />
+    <MESSAGE value="第一个版本，支持文件的 上传、复制下载链接、修改文件名、删除功能。" />
+    <option name="LAST_COMMIT_MESSAGE" value="第一个版本，支持文件的 上传、复制下载链接、修改文件名、删除功能。" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">

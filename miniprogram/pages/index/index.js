@@ -8,6 +8,14 @@ Page({
     updateId: '', //要修改的item项id
     itemList: [], //列表项
   },
+  //大图浏览
+  catchtapBig:function(e){
+    var item = e.currentTarget.dataset.value; //
+    wx.previewImage({
+      current: item.fileUrl, // 当前显示图片的http链接
+      urls: [item.fileUrl] // 需要预览的图片http链接列表
+    })
+  },
   //输入内容监听
   bindInputName: function(e) {
     console.info('e', e)
@@ -321,4 +329,7 @@ Page({
 
 
   },
+  onShareAppMessage:function(){
+
+  },//支持享功能
 })
