@@ -143,7 +143,59 @@ Page({
       return ''
     }
   },
-  // 上传按钮
+  // 上传消息图片按钮
+  doMessageUpload:function(){
+    wx.chooseMessageFile({
+      count: 1,
+      type: 'image',
+      success(res) { 
+        console.info('res',res)
+        wx.showLoading({
+          title: '上传中',
+        })
+
+        const filePath = res.tempFiles[0].path
+        // filePath.match(/\.[^.]+?$/)[0]//这里可以获取到文件的扩展名
+        const fileType = that.getTypeName(filePath.match(/\.[^.]+?$/)[0]);
+        const fileName = res.tempFiles[0].name
+
+        console.log('[获取文件相关信息] filePath', filePath)
+
+        // 上传文件
+        const cloudPath = new Date().getTime() + filePath.match(/\.[^.]+?$/)[0]
+        wx.cloud.uploadFile({
+          cloudPath,
+          filePath,
+          success: res => {
+            console.log('[上传文件] 成功：', res)
+            app.globalData.fileID = res.fileID
+            app.globalData.cloudPath = cloudPath
+            app.globalData.imagePath = filePath
+
+            var httpUrl = app.globalData.updateFile + '/' + cloudPath; //获取图片url
+            console.log('上传成功地址拼接，httpUrl-->', httpUrl)
+            /**数据库 插入记录 */
+            that.bindYunCreate(fileName , new Date().getTime(), httpUrl, fileType);
+
+          },
+          fail: e => {
+            console.error('[上传文件] 失败：', e)
+            wx.showToast({
+              icon: 'none',
+              title: '上传失败',
+            })
+          },
+          complete: () => {
+            wx.hideLoading()
+          }
+        })
+      },
+      fail: e => {
+        console.error(e)
+      }
+    })
+  },
+  // 上传图片按钮
   doUpload: function() {
     // 选择图片/文件
     wx.chooseImage({
