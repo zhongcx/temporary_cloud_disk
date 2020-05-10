@@ -43,7 +43,6 @@
 手机号|保密|一个手机号码只能注册5个小程序。
 小程序名称|持息网盘|个人帐号可一年内修改2次名称。
 小程序头像|![](https://upload-images.jianshu.io/upload_images/11217637-d54dc5c3993a8059.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240) |一年内可申请修改5次，我是在这个网站是自动生成的logo  [http://www.uugai.com/](http://www.uugai.com/)
-小程序码|![](https://upload-images.jianshu.io/upload_images/11217637-7364d7a5782ab9c3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)|用于扫码使用
 小程序介绍|方便实用的个人网盘|一个月内可申请5次修改
 服务类目|工具-->办公|一个月内可申请修改3次
 小程序注册地址|[https://mp.weixin.qq.com/](https://mp.weixin.qq.com/)|用于注册并登录小程序后台管理
