@@ -44,6 +44,6 @@
   </view>
 </view>
 
-<modal hidden="{{hiddenmodalput}}" title="请输入验证码" confirm-text="确定" cancel-text="取消" bindcancel="cancel" bindconfirm="confirm">
+<modal hidden="{{hiddenmodalput}}" title="修改文件名称" confirm-text="确定" cancel-text="取消" bindcancel="cancel" bindconfirm="confirm">
   <input type='text' placeholder="请输入内容" bindinput="bindInputName" value="{{inputValue}}" auto-focus/>
 </modal>
