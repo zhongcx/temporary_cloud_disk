@@ -3,6 +3,7 @@
 源码地址：[https://github.com/zhongcx/temporary_cloud_disk](https://github.com/zhongcx/temporary_cloud_disk)
 自己搭建环境注意事项：
 ###### 1、导入源码时要输入自己的小程序id
+![234](https://7072-pro-4c9955-1258575630.tcb.qcloud.la/page.png?sign=bfbffd36b55fd348262ef592f09f7175&t=1604375421)
 ![输入自己的小程序id](https://upload-images.jianshu.io/upload_images/11217637-cbe2570e88eca664.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ###### 2、要创建云开发
 ![点击“云开发”](https://upload-images.jianshu.io/upload_images/11217637-6f74f59a4d8a00f6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
